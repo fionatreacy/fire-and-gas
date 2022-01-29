@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mulish:wght@400&display=swap');
+
+#logo {
+    height: 200px;
+    width: 100%;
+    float: left;
+    background: url(imamges/fg.1.png) no-repeat center center;
+    overflow: hidden;
+}
+
+#menu {
+    font-family: Mulish, sans-serif;
+    margin: 0;
+    width: 250px;
+    color: #1d1d1d;
+    font-weight: 400;
+    position: relative;
+    top: 70px;
+}
+
+#menu li {
+    display: block;
+    color: #1d1d1d;
+    padding: 15px 16px;
+    font-size: 150%;
+    margin-left: -20px;
+    margin-top: 15%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Mulish;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+a:link {
+    color: #1d1d1d;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1d1d1d;
+}
+
+#home-about {
+    font-family: Mulish, sans-serif;
+    font-weight: 100;
+    position: relative;
+    left: 30%;
+    bottom: 250px;
+    font-size: 150%;
+    overflow: hidden;
+    width: 60%;
+    color: #1d1d1d;
+    letter-spacing: 2px;
+    background-color: rgb(126, 122, 122, 0.4);
+}
+h2 {
+    font-family: Mulish, sans-serif;
+    font-size: 150%;
+    font-weight: 100;
+}
+
+#contact-header {
+    position: relative;
+    top: -300px;
+    left: 25%;
+    padding-bottom: 20px;
+    font-family: Mulish, sans-serif;
+    color: #1d1d1d;
+    font-size: 180%;
+    font-weight: 125;
+    letter-spacing: 2px;
+}
+
+.contact-us {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    font-family: Mulish, sans-serif;
+    font-size: 150%;
+    font-weight: 125;
+    vertical-align: middle;
+    width: 60%;
+    height: 60%;
+    color: #1d1d1d;
+    letter-spacing: 2px;
+    background-color: rgba(126, 122, 122, 0.4);
+}
+
+#submit-button {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    padding: 15px 32px 15px 32px;
+    font-family: Mulish, sans-serif;
+    font-size: 90%;
+    color: white;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    background-color: red;
+    border-style: hidden;
+    border-color: #1d1d1d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#submit-button:hover {
+    background-color: white;
+    border: #1d1d1d solid 1px;
+    color: #1d1d1d;
+}
+
+.our-services {
+    position: relative;
+    top: -290px;
+    color: #1d1d1d;
+    font-family: Mulish, sans-serif;
+    font-size: 100%;
+    left: 30%;
+    letter-spacing: 2px;
+}
+
+.our-services>h2 {
+    font-size: 125%;
+    font-family: Mulish, sans-serif;
+    color: #1d1d1d;
+    font-weight: 100;
+    background-color: rgb(126, 122, 122, 0.4);
+    letter-spacing: 2px;
+}
+
+#auditing {
+    position: relative;
+    left: 23.3%;
+    color: #1d1d1d;
+    display: block;
+    width: 22%;
+    height: 350px;
+    background-color: rgba(126, 122, 122, 0.4);
+    font-family: Mulish, sans-serif;
+    font-size: 115%;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+#installation {
+    position: absolute;
+    left: 46.6%;
+    top: 0;
+    color: #1d1d1d;
+    display: block;
+    width: 22%;
+    height: 350px;
+    background-color: rgb(126, 122, 122, 0.4);
+    font-family: Mulish, sans-serif;
+    font-size: 115%;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+#design {
+    position: absolute;
+    display: block;
+    color: #1d1d1d;
+    top: 0;
+    height: 350px;
+    width: 22%;
+    background-color: rgb(126, 122, 122, 0.4);
+    font-family: Mulish, sans-serif;
+    font-size: 115%;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+#audit-header {
+    padding-top: 23px;
+}
+
+#design-header,
+#audit-header,
+#install-header {
+    text-align: center;
+    font-weight: 150;
+    font-family: Mulish, sans-serif;
+    font-size: 125%;
+    letter-spacing: 2px;
+}
+
+footer {
+    background-color: rgb(126, 122, 122, 0.4);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    position: fixed;
+    font-family: Mulish, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    color: #1d1d1d;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    background: url(imamges/smokey-fire-alarm.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media  screen and (max-width:1200px) {
+    
+    #contact-header {
+        width: 70%;
+        margin-bottom: auto;
+        padding-bottom: 0%;
+    }
+    .contact-us {
+        top: 60%;
+        height: 75%;
+    }
+    #submit-button {
+        position: relative;
+        top: 20px;
+    }
+}
+@media screen and (max-width: 950px) {
+    #auditing, #installation, #design {
+        height: 500px;
+    }
+    .contact-us {
+        position: relative;
+        top: -260px;
+        width: 65%;
+    }
+}
